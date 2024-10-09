@@ -16,5 +16,7 @@ yolov8s在rk3588的推理部署demo，使用多线程池并行npu推理加速。
 
 # reference
 https://github.com/leafqycc/rknn-cpp-Multithreading
+
 https://github.com/airockchip/ultralytics_yolov8
+
 https://github.com/airockchip/rknn_model_zoo/tree/main/examples/yolov8/cpp
