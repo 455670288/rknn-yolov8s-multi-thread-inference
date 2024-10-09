@@ -14,7 +14,7 @@ yolov8s在rk3588的推理部署demo，使用多线程池并行npu推理加速。
 
 3.文件中自带的模型是定制训练的yolov8s-p2小目标检测模型，对应着四个输出尺度。如需部署原始的yolov8s,需要在后处理代码postprocess.cc中修改输出检测头个数进行适配
 
-# reference
+# Reference
 https://github.com/leafqycc/rknn-cpp-Multithreading
 
 https://github.com/airockchip/ultralytics_yolov8
