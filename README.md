@@ -2,10 +2,10 @@
 yolov8s在rk3588的推理部署demo，使用多线程池并行npu推理加速。只支持rk3588。
 
 # 模型转换
-参照rk的https://github.com/airockchip/ultralytics_yolov8,进行模型转换
+参照rk https://github.com/airockchip/ultralytics_yolov8 进行模型转换
 
 # 多线程推理
-参照 https://github.com/leafqycc/rknn-cpp-Multithreading的代码进行修改，支持多线程池推理
+参照 https://github.com/leafqycc/rknn-cpp-Multithreading 代码进行修改，支持多线程池推理
 
 # 注意
 1.main_test_threadpool.cc文件中可通过修改threadNum变量值来设定线程数量;
