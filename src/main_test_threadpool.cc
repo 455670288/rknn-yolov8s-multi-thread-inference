@@ -34,8 +34,7 @@ int main(int argc, char **argv)
     }
 
     cv::namedWindow("Camera FPS");
-    // cv::VideoCapture capture("/home/firefly/ljh/ItcMultiDetect_yolov8/output_video.mp4");
-    cv::VideoCapture capture(11,cv::CAP_V4L2);
+    cv::VideoCapture capture(0,cv::CAP_V4L2);
     // cv::VideoCapture capture("rtsp://172.16.40.84:553/live", cv::CAP_FFMPEG);
 
     int video_width = capture.get(cv::CAP_PROP_FRAME_WIDTH);
