@@ -25,7 +25,7 @@ int main(int argc, char **argv)
 
     // 初始化rknn线程池/Initialize the rknn thread pool
     int threadNum = 1;
-    std::string model_name = "/home/firefly/ljh/ItcMultiDetect_yolov8/models/yolov8s-p2-19classes-250epoch.rknn";
+    std::string model_name = "../models/yolov8s-p2.rknn";
     rknnPool<rkYolov8n, cv::Mat, cv::Mat> testPool(model_name, threadNum);
     if (testPool.init() != 0)
     {
